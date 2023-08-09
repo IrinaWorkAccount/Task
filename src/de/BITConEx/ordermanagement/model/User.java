@@ -10,24 +10,34 @@ public abstract class User {
     private String email;
     private String password;
 
-    //constructors
-    //getters
-    //setters
-}
+    public User(String loginName, String email, String password) {
+        this.loginName = loginName;
+        this.email = email;
+        this.password = password;
+    }
 
-public class Admin extends User{
-    //Methods specific to Admin users
-}
+    public String getUserLoginName() {
+        return loginName;
+    }
 
-public class Customer extends User{
-    private String name;
-    private String surname;
-    private String birthDate;
-    private String address;
+    public String setUserLoginName() {
+        return loginName;
+    }
 
-    //constructors
-    //getters
-    //setters
+    public String getUserEmail() {
+        return email;
+    }
 
+    public String setUserEmail() {
+        return email;
+    }
+
+    public String getUserPassword() {
+        return password;
+    }
+
+    public String setUserPassword() {
+        return password;
+    }
 }
 

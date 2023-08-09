@@ -1,4 +1,4 @@
-package de.BITConEx.ordermanagement.model.service;
+package de.BITConEx.ordermanagement.service;
 
 import de.BITConEx.ordermanagement.model.Product;
 
@@ -9,17 +9,16 @@ import java.util.List;
  */
 
 public class ProductCatalogService {
-    public void addProduct(Product product){
-        //TODO
+    public void addProduct(Product product) {
+
     }
 
-    public List<Product> getAllProducts(){
+    public List<Product> getAllProducts() {
         //TODO
         return null;
     }
 
-    public void deleteProduct(String productName){
+    public void deleteProduct(String productName) {
     }
-
 
 }

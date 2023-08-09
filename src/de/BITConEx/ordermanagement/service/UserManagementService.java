@@ -1,5 +1,5 @@
 
-package de.BITConEx.ordermanagement.model.service;
+package de.BITConEx.ordermanagement.service;
 
 import de.BITConEx.ordermanagement.model.User;
 
@@ -14,12 +14,12 @@ public class UserManagementService {
         //TODO
     }
 
-    public List<User> getAllUsers(){
+    public List<User> getAllUsers() {
         //TODO
         return null;
     }
 
-    public void deleteUser(String loginName){
+    public void deleteUser(String loginName) {
         //TODO
     }
 
